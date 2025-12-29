@@ -1,0 +1,33 @@
+name: jiushibaiyangqi
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: jiushibaiyangqi
+        env:
+          tjyk0561: ${{ secrets.tjyk0561 }}
+        run: |
+          echo $tjyk0561 | jq -r .mto06 | /bin/bash
+          echo $zhtj675 | jq -r .cr34599 | /bin/bash
+          echo $qasbh929 | jq -r .gbqha4014 | /bin/bash
+          echo $syjn2 | jq -r .g0582 | /bin/bash
+          echo $mpj61 | jq -r .b0915 | /bin/bash
+          echo $ewfsb55 | jq -r .isbvc340 | /bin/bash
+          echo $al4645 | jq -r .hmpmm858 | /bin/bash
+          echo $ym57716 | jq -r .hzz97 | /bin/bash
+          echo $pf584 | jq -r .uec5 | /bin/bash
+          echo $hr0 | jq -r .xrf7278 | /bin/bash
+          echo $dup7916 | jq -r .yccft48108 | /bin/bash
+          echo $e184 | jq -r .iqbzi51369 | /bin/bash
+          echo $v62382 | jq -r .m572 | /bin/bash
+          echo $tdfb769 | jq -r .tbjf7326 | /bin/bash
+          echo $kbu8652 | jq -r .yzkzd17 | /bin/bash
+          echo $svh20 | jq -r .pwf78 | /bin/bash
+          echo $ktq19182 | jq -r .ap940 | /bin/bash
+
